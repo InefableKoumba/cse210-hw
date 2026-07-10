@@ -1,5 +1,11 @@
 using System;
 
+// Exceeding Requirements:
+// 1. Used JSON format for saving and loading the journal. This is more robust than CSV
+//    for text containing commas and quotes, and is a standard modern data format.
+// 2. Used System.Text.Json library to achieve this.
+// 3. Added a couple of extra prompts to the generator.
+
 class Program
 {
     static void Main(string[] args)
